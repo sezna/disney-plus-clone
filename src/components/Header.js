@@ -9,7 +9,7 @@ import {
     selectUserPhoto, 
     setUserLoginDetails,
     setSignOutState 
-} from "/Users/killswitchengagebiggestfan/Documents/Github/youtube-disney-clone/src/features/userSlice.js";
+} from "../features/userSlice.js";
 
 const Header = (props) => {
     const dispatch = useDispatch();

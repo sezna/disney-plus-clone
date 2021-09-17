@@ -9,8 +9,8 @@ import Trending from './Trending';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import db from "../firebase";
-import { setMovies } from "/Users/killswitchengagebiggestfan/Documents/Github/youtube-disney-clone/src/features/movie/movieSlice.js";
-import { selectUserName } from "/Users/killswitchengagebiggestfan/Documents/Github/youtube-disney-clone/src/features/userSlice.js";
+import { setMovies } from "../features/movie/movieSlice.js";
+import { selectUserName } from "../features/userSlice.js";
 
 const Home = (props) => {
     const dispatch = useDispatch();
